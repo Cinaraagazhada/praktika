@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    inline-size: 70%;
+    margin: 0 auto;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+.home{
+ background-image: url(../Home/dowland/hero\ shape\ 7.png);
+ block-size: 100vh;
+ overflow: hidden;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.paragrph{
+   color: white;
+   margin-left: 700px;
+   margin-top: 80px;
+   font-size: 200%;
+   
+
+  
+
+}
+.paragrph button{
+    font-size:25px;
+    border-radius: 10px;
+}
+.rigth_btn{
+    color: white;
+    background-color:rgb(250, 172, 26)
+}
+.left_btn{
+    color: red;
+}
+.advice p{
+    color: red;
+
+}
+.education{
+    margin:20px 30px;
+}
